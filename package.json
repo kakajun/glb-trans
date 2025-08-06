@@ -5,8 +5,6 @@
     "dev": "node export-glb.js"
     },
   "dependencies": {
-    "@gltf-transform/core":"^4.2.1",
-    "@gltf-transform/extensions":"^4.2.1",
-    "three":"^0.179.1"
+    "@gltf-transform/core":"^4.2.1"
   }
 }

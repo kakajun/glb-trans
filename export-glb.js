@@ -1,8 +1,8 @@
 const fs = require('fs');
 const { Document, NodeIO } = require('@gltf-transform/core');
-const { Materials } = require('@gltf-transform/extensions');
+// const { Materials } = require('@gltf-transform/extensions');
 
-const json = JSON.parse(fs.readFileSync('./model.json', 'utf8'));
+const json = JSON.parse(fs.readFileSync('./obj0.bin', 'utf8'));
 const imageBuffer = fs.readFileSync('__.jpg');
 
 const doc = new Document();
